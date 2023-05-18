@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Table
+    uniqueID: 2254763019
+    locked: 0
+  - name: Legac
+    uniqueID: 3741145759
+    locked: 0
+  - name: goblin
+    uniqueID: 276231869
+    locked: 0
