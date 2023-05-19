@@ -15,14 +15,14 @@ public class G_CardList : MonoBehaviour
 
     public Card GoblinCard()
     {
-        int weight = 0;
+        int percentege = 0;
         int chooseNum = 0;
 
         chooseNum = Mathf.RoundToInt(total * Random.Range(0.0f, 1.0f));
         for (int i = 0; i < deck.Count; i++)
         {
-            weight += deck[i].weight;
-            if (chooseNum <= weight)
+            percentege += deck[i].percentege;
+            if (chooseNum <= percentege)
             {
                 Card temp = new Card(deck[i]);
                 return temp;
@@ -35,7 +35,7 @@ public class G_CardList : MonoBehaviour
     {
         for (int i = 0; i < deck.Count; i++)
         {
-            total += deck[i].weight;
+            total += deck[i].percentege;
             //Debug.Log(deck[i].weight);
         }
     }

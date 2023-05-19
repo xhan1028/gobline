@@ -50,3 +50,6 @@ TagManager:
   - name: goblin
     uniqueID: 276231869
     locked: 0
+  - name: Home
+    uniqueID: 1149186063
+    locked: 0
